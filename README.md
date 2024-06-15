@@ -28,6 +28,7 @@ In this project, I explore cryptocurrency price prediction using the CoinGecko A
     ```bash
     git clone https://github.com/yourusername/BitPredict.git
     ```
+2. Replace the placeholder API key: The script contains a placeholder "YOUR_API_KEY" for the CoinGecko API key. Replace this with your actual CoinGecko Demo API key. If you don't have one, you can get it by registering on the [CoinGecko Demo API](https://www.coingecko.com/en/api?utm_campaign=learn&utm_content=bitcoin-price-prediction-machine-learning) page.
 2. Navigate to the project directory:
     ```bash
     cd BitPredict
@@ -36,25 +37,38 @@ In this project, I explore cryptocurrency price prediction using the CoinGecko A
     ```bash
     pip install -r requirements.txt
     ```
+4. Setup a new environmet:
+    ```bash
+    python -m venv myenv
+    ```
+5. Activate the env:
+    ```bash
+    myenv\Scripts\activate.bat
+    ```
+6. Run the model:
+    ```bash
+    python model.py
+    ```
+7. Open the web app: In your web browser, go to http://localhost:5000
 
 ## Usage 📚
 
 1. Fetch the cryptocurrency market data from CoinGecko API:
     ```bash
-    python fetch_data.py
+    model fetch_data.py
     ```
 2. Train the machine learning model on the fetched data:
     ```bash
-    python train_model.py
+    model train_model.py
     ```
 3. Predict future cryptocurrency prices:
     ```bash
-    python predict.py
+    model predict.py
     ```
 
 ## Disclaimer ⚠️
 
-While this guide covers machine learning techniques for crypto price prediction, any use or reliance on our content is solely at your own risk and discretion. Do conduct your own research, review, analyze, and verify our content before relying on them. Trading is a highly risky activity that can lead to major losses, please therefore consult your financial advisor before making any decisions.
+While this covers machine learning techniques for crypto price prediction, any use or reliance on my content is solely at your own risk and discretion. Do conduct your own research, review, analyze, and verify my content before relying on them. Trading is a highly risky activity that can lead to major losses, please therefore consult your financial advisor before making any decisions.
 
 ## License 📄
 
