@@ -28,28 +28,32 @@ In this project, I explore cryptocurrency price prediction using the CoinGecko A
     ```bash
     git clone https://github.com/yourusername/BitPredict.git
     ```
-2. Replace the placeholder API key: The script contains a placeholder "YOUR_API_KEY" for the CoinGecko API key. Replace this with your actual CoinGecko Demo API key. If you don't have one, you can get it by registering on the [CoinGecko Demo API](https://www.coingecko.com/en/api?utm_campaign=learn&utm_content=bitcoin-price-prediction-machine-learning) page.
-2. Navigate to the project directory:
+2. Replace the placeholder API key:
+The model.py script contains a placeholder for the CoinGecko API key. Replace this with your actual CoinGecko Demo API key. If you don't have one, you can get it by registering on the [CoinGecko Demo API](https://www.coingecko.com/en/api?utm_campaign=learn&utm_content=bitcoin-price-prediction-machine-learning) page.
+    ```bash
+    "YOUR_API_KEY"
+    ```
+3. Navigate to the project directory:
     ```bash
     cd BitPredict
     ```
-3. Install the required dependencies:
+4. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-4. Setup a new environmet:
+5. Setup a new environmet:
     ```bash
     python -m venv myenv
     ```
-5. Activate the env:
+6. Activate the env:
     ```bash
     myenv\Scripts\activate.bat
     ```
-6. Run the model:
+7. Run the model:
     ```bash
     python model.py
     ```
-7. Open the web app: In your web browser, go to http://localhost:5000
+8. Open the web app: In your web browser, go to http://localhost:5000
 
 ## Usage 📚
 
