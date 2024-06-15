@@ -1,6 +1,6 @@
 # BitPredict 🚀📈
 
-Welcome to **BitPredict**, a personal project focused on predicting cryptocurrency prices using machine learning and data from the CoinGecko API. This repository contains the code and resources needed to fetch crypto market data and train a machine learning model to make informed predictions about future prices.
+Welcome to **BitPredict**, my personal project focused on predicting cryptocurrency prices using machine learning and data from the CoinGecko API. This repository contains the code and resources needed to fetch crypto market data and train a machine learning model to make informed predictions about future prices.
 
 ## Table of Contents 📑
 
